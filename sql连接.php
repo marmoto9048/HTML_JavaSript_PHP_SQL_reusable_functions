@@ -11,7 +11,7 @@ $connectionInfo = array(
 );
 $conn = sqlsrv_connect($dbServer, $connectionInfo);
 ////执行查询语句
-$query ="SELECT *  FROM S4_棚卸結果貼付 ";
+$query ="SELECT *  FROM ｘｘｘｘｘｘｘｘｘｘｘｘｘ ";
 $query = iconv('UTF-8','cp932',$query);
 $stmt = sqlsrv_query($conn, $query);
 if( $stmt === false) {
