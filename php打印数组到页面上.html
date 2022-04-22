@@ -1,0 +1,31 @@
+<html>
+<head>
+    <script language="JavaScript">
+        var a=new Array(0,1,2,3,4,new Array('dog','cat','mao'));
+        var arr=new Array(0,1,2,3,4,new Array('dog','cat','mao'));
+        function print_array(arr){
+            for(var key in arr){
+                if(typeof(arr[key])=='array'||typeof(arr[key])=='object'){//递归调用
+                    print_data(arr[key]);
+                }else
+                if(key === 'iform')//此处换行操作
+                {
+                    document.write(key + ' = ' + arr[key] +'<br>');
+                }else {
+                    document.write(key + ' = ' + arr[key]+'<br>'  );
+                }
+            }
+        }
+
+        function aa(){
+            var arr=new Array(0,1,2,3,4,new Array('dog','cat','mao'));
+            var printText = "我的打印小票"+'\n';for(var item in arr){        printText += '名称：' + arr[item].name            +'，数量：' + arr[item].number+ arr[item].unit            +'，单价：' + arr[item].price.toFixed(2)            +'(元)，小计：' + arr[item].total.toFixed(2)+'(元)\n' ;    }document.write(printText);
+        }
+    </script>
+</head>
+<BODY>
+<form name="iform">
+    <input type="button" name="ibutton" value="click" onclick="aa()">
+</form>
+</BODY>
+</HTML>
