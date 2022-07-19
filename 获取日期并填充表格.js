@@ -17,18 +17,7 @@
   var date = new Date();
   formatDate(date);
 
-  // var y=document.getElementById("testBody2");
-  // y.innerHTML=formatDate(date);
-  var table = document.getElementById("myTable");
-  var rowNode = document.getElementById("testBody1");
-  var cellNode = document.createElement("td");
-  var textNode2 = document.createTextNode("createTextNode");
-  var textNode = document.createTextNode(formatDate(date));
 
-  cellNode.appendChild(textNode);
-  cellNode.appendChild(textNode2);
-  rowNode.appendChild(cellNode);
-  table.appendChild(rowNode);
 </script>
 </html>
 
