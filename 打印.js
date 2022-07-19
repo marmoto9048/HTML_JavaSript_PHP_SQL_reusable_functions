@@ -1,6 +1,6 @@
 
 function download(){
-    var element = $("#自動実装Tの共通項目確認");    // 这个dom元素是要导出pdf的div容器
+    var element = $("#table1");    // 这个dom元素是要导出pdf的div容器
     var w = element.width();    // 获得该容器的宽
     var h = element.height();    // 获得该容器的高
     var offsetTop = element.offset().top;    // 获得该容器到文档顶部的距离
