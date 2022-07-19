@@ -48,18 +48,7 @@
 </html>
 
  ------------------------------------------------------------------------------------------------------------------------------
-    
-/* 
-*Copyright (c) 2017，烟台大学计算机学院 
-All rights reserved. 
-*文件名称：关于HTML的练习
-*作    者：张晴晴 
-*完成日期：2017年11月11日 
-*版 本 号：v1.0  * 
-*问题描述：HTML5-JavaScript
-*输入描述： 无
-*程序输出： 无
-*/ 
+
  
 <!DOCTYPE HTML>
 <html>
@@ -77,11 +66,9 @@ All rights reserved.
 </head>
  
 <body>
-<input type="button" value="不许碰我" onClick="changecolor('yellow')">
-<input type="button" value="警告你别碰我" onClick="changecolor('red')">
-<input type="button" value="给你点颜色看看" onClick="changecolor('black')">
+<input type="button" value="11" onClick="changecolor('yellow')">
+<input type="button" value="222" onClick="changecolor('red')">
+<input type="button" value="3333" onClick="changecolor('black')">
 </body>
 </html>
-————————————————
-版权声明：本文为CSDN博主「爱新觉罗_每天都要很努力」的原创文章，遵循CC 4.0 BY-SA版权协议，转载请附上原文出处链接及本声明。
-原文链接：https://blog.csdn.net/qq_34216631/article/details/78506161
+
