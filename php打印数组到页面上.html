@@ -19,7 +19,7 @@
 
         function aa(){
             var arr=new Array(0,1,2,3,4,new Array('dog','cat','mao'));
-            var printText = "我的打印小票"+'\n';for(var item in arr){        printText += '名称：' + arr[item].name            +'，数量：' + arr[item].number+ arr[item].unit            +'，单价：' + arr[item].price.toFixed(2)            +'(元)，小计：' + arr[item].total.toFixed(2)+'(元)\n' ;    }document.write(printText);
+            var printText = "我的打印"+'\n';for(var item in arr){        printText += '名称：' + arr[item].name            +'，数量：' + arr[item].number+ arr[item].unit            + arr[item].total.toFixed(2)+'\n' ;    }document.write(printText);
         }
     </script>
 </head>
